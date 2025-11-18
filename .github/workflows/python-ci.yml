@@ -1,10 +1,10 @@
-name: Python Lint and Format
+name: Python CI
 
 on:
   push:
     paths:
       - 'python/**'
-      - '.github/workflows/python-lint.yml'
+      - '.github/workflows/python-ci.yml'
 
 jobs:
   lint:
