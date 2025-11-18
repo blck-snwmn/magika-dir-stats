@@ -1,0 +1,10 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+magika = "1.0"
+ort = { version = "2.0.0-rc.10", features = ["download-binaries"] }
+walkdir = "2"
+anyhow = "1"
