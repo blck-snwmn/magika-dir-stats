@@ -5,6 +5,7 @@ A collection of tools to analyze directories and aggregate file statistics by ty
 ## Tools
 
 - **python/**: Python-based CLI tool for analyzing file types and aggregating capacity
+- **rust/**: Rust-based CLI tool with the same functionality
 
 ## Requirements
 
