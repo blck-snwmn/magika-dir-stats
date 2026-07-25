@@ -5,12 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "magika>=1.0.1",
+    "magika==1.0.3",
 ]
 
 [dependency-groups]
 dev = [
-    "ruff>=0.14.5",
+    "ruff==0.14.5",
 ]
 
 [tool.ruff]
