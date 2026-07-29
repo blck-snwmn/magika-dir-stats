@@ -33,6 +33,9 @@ jobs:
     - name: Run import smoke
       run: uv run python -c "from magika import Magika; Magika()"
 
+    - name: Compile Python sources
+      run: uv run python -m compileall -q -x '(^|/)\.venv/' .
+
     - name: Run ruff lint
       run: uv run ruff check .
 
