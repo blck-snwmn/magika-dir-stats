@@ -5,6 +5,6 @@ edition = "2024"
 
 [dependencies]
 magika = "=1.1.0"
-ort = { version = "=2.0.0-rc.12", features = ["download-binaries"] }
+ort = { version = "=2.0.0-rc.13", features = ["download-binaries"] }
 walkdir = "=2.5.0"
 anyhow = "=1.0.104"
